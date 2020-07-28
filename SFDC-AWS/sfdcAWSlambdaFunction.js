@@ -1,4 +1,5 @@
 // to be written in AWS Lambda function
+// node.JS
 
 const AWS = require('aws-sdk');
 const dynamodb = new AWS.DynamoDB({apiVersion: '2012-08-10'});
